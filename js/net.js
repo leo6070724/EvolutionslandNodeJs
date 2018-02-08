@@ -5,7 +5,7 @@
         this.http = require('http').Server(this.app);
         this.webSocketServer = require('ws').Server;
         this.wss = new this.webSocketServer({ port: 8881 });
-        this.app.use(this.express.static('public/bin'));
+        this.app.use(this.express.static('public'));
 
         this.manager = manager;
 
