@@ -1,0 +1,10 @@
+{
+  "name": "websocket-pk10",
+  "version": "0.0.1",
+  "description": "websocket-pk10",
+  "dependencies": {
+    "express": "^4.15.4",
+    "ws": "^3.1.0",
+	"hashmap":"^2.3.0"
+  }
+}
