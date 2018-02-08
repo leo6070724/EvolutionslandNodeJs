@@ -33,8 +33,8 @@
         }.bind(this));
 
 
-        this.http.listen(80, function () {
-            console.log('listening on *:80');
+        this.http.listen(8080, function () {
+            console.log('listening on *:8080');
         });
     }
 
